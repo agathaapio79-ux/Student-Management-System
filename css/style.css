@@ -1,0 +1,106 @@
+
+/* GENERAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY DESIGN */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER DESIGN */
+header {
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 18px;
+    color: #dbeafe;
+}
+
+/* MAIN SECTION */
+main {
+    background-color: white;
+    width: 85%;
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 50px 30px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    flex: 1;
+}
+
+main h2 {
+    color: #1e3a8a;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #64748b;
+}
+
+/* FOOTER DESIGN */
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: auto;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* HOVER EFFECT */
+main:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 600px) {
+    header {
+        padding: 40px 15px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    header p {
+        font-size: 15px;
+    }
+
+    main {
+        width: 90%;
+        padding: 35px 20px;
+        margin: 35px auto;
+    }
+
+    main h2 {
+        font-size: 23px;
+    }
+}
