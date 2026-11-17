@@ -22,3 +22,10 @@ This project is currently being set up as part of my semester coursework. It wil
 - Project folder created.
 - Initial folder structure established.
 - Starter webpage prepared.
+
+## Development Progress
+Week 1:
+- Created the development environment.
+- Initialised Git version control.
+- Created the initial HTML structure.
+- Started tracking project changes using commits.
